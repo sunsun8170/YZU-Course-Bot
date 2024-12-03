@@ -46,7 +46,7 @@ class BotConfigs:
   COURSE_SELECT_URL: Final = "https://isdna1.yzu.edu.tw/CnStdSel/SelCurr/CurrMainTrans.aspx?mSelType=SelCos&mUrl="
   # model configs
   PRETRAINED_MODEL_NAME: Final = "microsoft/trocr-small-printed"
-  PRETRAINED_MODEL_PATH: Final = "./model"
+  PRETRAINED_MODEL_PATH: Final = "./src/model"
   # general configs
   REQUEST_TIMEOUT: Final = 5
   DEBUG_MODE: Final = False  # set to True to enable detailed error messages
