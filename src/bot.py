@@ -1,7 +1,7 @@
-"""Main script for managing and running the course bot.
+"""Script for managing and running the course bot.
 
-This script serves as the entry point for initializing and executing 
-the core functionalities of the course bot system.
+This script handles the initialization and execution of the course bot, which automates 
+the process of managing course selections based on user-defined configurations.
 """
 from functools import wraps
 import getpass

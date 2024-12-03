@@ -1,3 +1,9 @@
+"""Main script for the CAPTCHA course selection bot.
+
+This script initializes and runs the course selection bot by loading user-defined 
+course configurations from a YAML file. It includes error handling for file 
+loading and YAML parsing issues, ensuring the process runs smoothly.
+"""
 import sys
 import yaml
 
