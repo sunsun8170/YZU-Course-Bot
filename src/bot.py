@@ -56,7 +56,7 @@ def handle_exceptions(wait: int = 0.5) -> Callable[[Callable], Callable]:
           )
           time.sleep(wait)
         except Exception as e:
-          self._logger.critical(f"[ 未知的錯誤 ] 詳細資訊: {e}", exc_info=True)
+          self._logger.critical(f"[ 未知的錯誤 ]\n詳細資訊: {e}", exc_info=True)
           sys.exit(0)
 
     return wrapper
@@ -167,7 +167,7 @@ class CourseBot:
 
     except Exception as e:
       self._logger.critical(
-          f"[ 模型載入失敗 ] 詳細資訊: {e}",
+          f"[ 模型載入失敗 ]\n詳細資訊: {e}",
           exc_info=BotConfigs.DEBUG_MODE,
       )
 
@@ -315,7 +315,7 @@ class CourseBot:
 
     except Exception as e:
       self._logger.critical(
-          f"[ 模型辨識錯誤 ] 在辨識驗證碼文字時發生了未知的錯誤! 詳細資訊: {e}",
+          f"[ 模型辨識錯誤 ] 在辨識驗證碼文字時發生了未知的錯誤!\n詳細資訊: {e}",
           exc_info=BotConfigs.DEBUG_MODE,
       )
 
