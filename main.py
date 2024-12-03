@@ -1,5 +1,6 @@
 import sys
 import yaml
+
 from src.bot import CourseBot
 import src.utils as utils
 
@@ -13,7 +14,7 @@ except yaml.YAMLError as e:
   print(f"[ YAML 解析錯誤 ] 請確認 course_list.yaml 中語法是否正確!\n詳細資訊: {e}")
   sys.exit(0)
 except Exception as e:
-  print(f"[ 未知的錯誤 ] 詳細資訊: {e}")
+  print(f"[ 未知的錯誤 ]\n詳細資訊: {e}")
   sys.exit(0)
 
 utils.enable_signal_handler()
