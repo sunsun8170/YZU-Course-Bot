@@ -1,4 +1,4 @@
-# YZU Course Bot v2.0
+# YZU Course Bot
 
 > 此專案是基於 [元智選課機器人](https://github.com/Doem/yzuCourseBot) 所進行的修改
 
@@ -9,17 +9,17 @@
 ## 建置環境
 
 1. [下載](https://www.anaconda.com/download/success) Anaconda 或 Miniconda 後，根據不同的作業系統按照官網的[安裝方式](https://docs.anaconda.com/anaconda/install/)進行安裝
-2. 至 [Releases](https://github.com/sunsun8170/YZU-Course-Bot/releases) 下載最新版本的 Course Bot
-3. 將 `model.zip` 解壓縮後置於 `./src` 目錄底下
+2. 至 [Releases](https://github.com/sunsun8170/YZU-Course-Bot/releases) 下載最新版本的 YZU Course Bot 專案及其 `model.zip` 檔
+3. 將 `model.zip` 解壓縮後置於 `src` 目錄底下
 4. 安裝完成之後
     * 若為 Windows 則開啟 Anaconda Prompt
     * 若為 MacOS 或 Linux 則開啟 terminal
 5. 依序執行下面的指令，建立此專案所需的環境
 
 ```bash=
+conda create -n CourseBot -c conda-forge python=3.12
+conda activate CourseBot
 cd /path/to/YZU-Course-Bot-main
-conda create -n course_bot -c conda-forge python=3.12
-conda activate course_bot
 pip install -r requirements.txt
 ```
 
