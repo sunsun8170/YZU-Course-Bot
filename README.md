@@ -86,3 +86,9 @@ python main.py
 |    **329**   	|     生技碩     	|    **623**   	|     藝設碩     	|  **A11** 	|      護理系      	|
 |    **330**   	|     先能碩     	|    **624**   	|     社政碩     	|  **A21** 	|      醫研所      	|
 |    **331**   	|   電機碩甲組   	|    **656**   	|     文產博     	|          	|                  	|
+
+## 其他類似專案
+
+1. [Doem / yzuCourseBot: 元智選課機器人](https://github.com/Doem/yzuCourseBot)
+2. [ares30841167 / yzu-course-bot: 一個元智大學搶課機器人的"POC"](https://github.com/ares30841167/yzu-course-bot)
+3. [MissterHao / WannaClass](https://github.com/MissterHao/WannaClass)
