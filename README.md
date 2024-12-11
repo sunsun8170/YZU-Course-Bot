@@ -89,6 +89,6 @@ python main.py
 
 ## 其他類似專案
 
-1. [Doem / yzuCourseBot: 元智選課機器人](https://github.com/Doem/yzuCourseBot)
-2. [ares30841167 / yzu-course-bot: 一個元智大學搶課機器人的"POC"](https://github.com/ares30841167/yzu-course-bot)
-3. [MissterHao / WannaClass](https://github.com/MissterHao/WannaClass)
+* [Doem / yzuCourseBot: 元智選課機器人](https://github.com/Doem/yzuCourseBot)
+* [ares30841167 / yzu-course-bot: 一個元智大學搶課機器人的"POC"](https://github.com/ares30841167/yzu-course-bot)
+* [MissterHao / WannaClass](https://github.com/MissterHao/WannaClass)
